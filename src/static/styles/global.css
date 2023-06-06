@@ -88,7 +88,6 @@ input {
 }
 
 textarea {
-  height: 52px !important;
   font-size: inherit;
   border: none;
   resize: none;
@@ -116,6 +115,10 @@ i {
 
 .justify-content-start {
   justify-content: start;
+}
+
+.justify-content-end {
+  justify-content: end;
 }
 
 .label {
