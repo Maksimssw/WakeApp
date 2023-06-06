@@ -6,6 +6,7 @@
 				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="../static/styles/global.css">
+	<link rel="stylesheet" href="../static/styles/style.css">
 	<title>Document</title>
 </head>
 <body>
@@ -44,7 +45,63 @@
 			<button class="header__login button button-gradient">Log in</button>
 		</div>
 	</header>
-	<main></main>
+	<main>
+		<section class="hero container">
+			<img
+				class="hero__image"
+				src="../static/images/hero/bg.webp"
+				alt=""
+			>
+
+			<div class="hero__info">
+				<h1 class="hero__headline">awesome html5 games - NO MONEY!</h1>
+				<p class="hero__description">
+					Your perfect place to get some fun and excitement
+				</p>
+
+				<div class="hero__buttons">
+					<button class="hero__button button button_white">Log in</button>
+					<button class="hero__button button button-gradient">Play</button>
+				</div>
+			</div>
+
+			<div class="hero__wrapper">
+				<div class="hero__content grid-row justify-content-between">
+					<h2 class="hero__create">Create a free account now</h2>
+
+					<ul class="hero__list grid-row">
+						<li class="hero__item grid-row">
+							<img class="hero__icon" src="../static/icons/dice.webp" alt="">
+							<span class="hero__text">1000+ Games available</span>
+						</li>
+
+						<li class="hero__item grid-row">
+							<img class="hero__icon" src="../static/icons/slot.webp" alt="">
+							<span class="hero__text">New game Every week</span>
+						</li>
+
+						<li class="hero__item grid-row">
+							<img class="hero__icon" src="../static/icons/24h.webp" alt="">
+							<span class="hero__text">Support our users 24/7</span>
+						</li>
+					</ul>
+				</div>
+
+				<form action="#" class="hero__form">
+					<input type="text" class="label" placeholder="Firstname">
+					<input type="text" class="label" placeholder="lastname">
+					<input type="text" class="label" placeholder="Email address">
+					<button class="button button-gradient">Join now</button>
+					<label class="hero__label grid-row justify-content-start">
+						<input type="checkbox">
+						<span>
+							I accept the<a href="#">Privacy Policy</a>
+						</span>
+					</label>
+				</form>
+			</div>
+		</section>
+	</main>
 	<footer></footer>
 </body>
 </html>

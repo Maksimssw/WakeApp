@@ -114,6 +114,16 @@ i {
   justify-content: space-between;
 }
 
+.justify-content-start {
+  justify-content: start;
+}
+
+.label {
+  padding: 12px 14px;
+  background: var(--color-white);
+  border-radius: var(--border-rd-lg);
+}
+
 .button {
   padding: 0 24px;
   color: var(--color-white);
@@ -129,6 +139,9 @@ i {
 }
 
 .button_white {
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 700;
   border: 2px solid var(--color-white);
   filter: drop-shadow(0px 4px 16px rgba(138, 97, 255, 0.6));
 }
@@ -146,6 +159,7 @@ i {
   background: rgba(1, 1, 31, 0.4);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  z-index: 1;
 }
 
 .header__nav {
