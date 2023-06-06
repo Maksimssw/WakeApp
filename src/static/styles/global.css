@@ -456,7 +456,7 @@ i {
   .menu {
     position: fixed;
     left: -100%;
-    top: 0%;
+    top: 0;
     grid-auto-flow: row;
     grid-row-gap: 16px;
     align-content: start;

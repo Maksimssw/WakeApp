@@ -40,6 +40,12 @@ window.addEventListener('DOMContentLoaded', () => {
     const toggleMenu = () => {
       hamburger.classList.toggle('hamburger_active')
       menu.classList.toggle('menu_active')
+
+      if (menu.classList.contains('menu_active')) {
+        document.body.style.overflow = 'hidden'
+      } else {
+        document.body.style.overflow = ''
+      }
     }
 
     hamburger.addEventListener('click', toggleMenu)
