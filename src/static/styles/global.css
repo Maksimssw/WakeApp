@@ -118,6 +118,10 @@ i {
   justify-content: start;
 }
 
+.justify-content-center {
+  justify-content: center;
+}
+
 .justify-content-end {
   justify-content: end;
 }
