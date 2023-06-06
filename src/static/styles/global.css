@@ -41,7 +41,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-weight: 400;
-  background-color: var(--color-white);
+  background-color: #020c2d;
 }
 
 main {
@@ -149,6 +149,15 @@ i {
 .button_blue {
   background: var(--color-blue100);
   border-radius: var(--border-rd-md);
+}
+
+.headline {
+  margin-bottom: 2px;
+  text-transform: capitalize;
+  line-height: 44px;
+  font-size: 36px;
+  color: var(--color-white);
+  font-weight: 700;
 }
 
 .header {
